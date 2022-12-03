@@ -7,7 +7,9 @@
 			"files": [
 				"E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap",
 				"E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/BP_Projectile.uasset",
-				"E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/StarterContent/Maps/GameLevel.umap"
+				"E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/StarterContent/Maps/GameLevel.umap",
+				"E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/GameLevel.umap",
+				"E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap"
 			]
 		}
 	]
