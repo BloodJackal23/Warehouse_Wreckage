@@ -1298,3 +1298,463 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2022.12.03-12.12.58:127][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 925 ms)
 [2022.12.03-12.12.58:130][110]AssetCheck: New page: Asset Save: GameLevel
 [2022.12.03-12.12.58:130][110]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-12.14.45:090][242]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.03-12.14.45:095][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-12.14.45:108][242]PIE: New page: PIE session: GameLevel (Dec 3, 2022, 4:14:45 PM)
+[2022.12.03-12.14.45:112][242]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.12.03-12.14.45:112][242]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.12.03-12.14.45:112][242]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_GameLevel
+[2022.12.03-12.14.45:117][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004640s)
+[2022.12.03-12.14.45:117][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/GameLevel.GameLevel to /Game/Game/Levels/UEDPIE_0_GameLevel.GameLevel (0.004673s)
+[2022.12.03-12.14.45:117][242]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-12.14.45:117][242]LogAIModule: Creating AISystem for world GameLevel
+[2022.12.03-12.14.45:117][242]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2022.12.03-12.14.45:123][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.12.03-12.14.45:125][242]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.12.03-12.14.45:125][242]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.03-12.14.45:125][242]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.03-12.14.45:125][242]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.03-12.14.45:125][242]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.03-12.14.45:125][242]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.03-12.14.45:125][242]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.03-12.14.45:125][242]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.03-12.14.45:125][242]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.03-12.14.45:125][242]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.03-12.14.45:125][242]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.03-12.14.45:125][242]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.03-12.14.45:127][242]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.03-12.14.45:142][242]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.12.03-12.14.45:143][242]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.03-12.14.45:143][242]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.03-12.14.45:143][242]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.03-12.14.45:144][242]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.12.03-12.14.45:144][242]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.12.03-12.14.45:145][242]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.12.03-12.14.45:145][242]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.12.03-12.14.45:145][242]LogInit: FAudioDevice initialized.
+[2022.12.03-12.14.45:145][242]LogAudio: Display: Audio Device (ID: 2) registered with world 'GameLevel'.
+[2022.12.03-12.14.45:148][242]LogLoad: Game class is 'GameModeBase'
+[2022.12.03-12.14.45:149][242]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2022.12.03-14.14.45
+[2022.12.03-12.14.45:150][242]LogWorld: Bringing up level for play took: 0.001015
+[2022.12.03-12.14.45:151][242]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2022.12.03-12.14.45:161][242]PIE: Server logged in
+[2022.12.03-12.14.45:161][242]PIE: Play in editor total start time 0.068 seconds.
+[2022.12.03-12.14.54:615][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-12.14.54:615][358]LogWorld: BeginTearingDown for /Game/Game/Levels/UEDPIE_0_GameLevel
+[2022.12.03-12.14.54:631][358]LogWorld: UWorld::CleanupWorld for GameLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-12.14.54:631][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.14.54:634][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.03-12.14.54:636][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.14.54:641][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-12.14.54:642][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.12.03-12.14.54:643][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.12.03-12.14.54:648][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.12.03-12.14.54:671][359]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.12.03-12.15.09:153][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.12.03-12.15.09:221][ 55]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2022.12.03-12.15.09:221][ 55]Cmd: MAP LOAD FILE="E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2022.12.03-12.15.09:221][ 55]LightingResults: New page: Lighting Build
+[2022.12.03-12.15.09:221][ 55]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2022.12.03-12.15.09:255][ 55]LogWorld: UWorld::CleanupWorld for GameLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-12.15.09:255][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.15.09:255][ 55]MapCheck: New page: Map Check
+[2022.12.03-12.15.09:255][ 55]LightingResults: New page: Lighting Build
+[2022.12.03-12.15.09:260][ 55]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.03-12.15.09:261][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.12.03-12.15.09:263][ 55]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-12.15.09:263][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.15.09:270][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.12.03-12.15.09:276][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.12.03-12.15.09:287][ 55]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2022.12.03-12.15.09:287][ 55]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-12.15.09:287][ 55]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.12.03-12.15.09:357][ 55]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.03-12.15.09:365][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.12.03-12.15.09:374][ 55]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.03-12.15.09:374][ 55]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.07ms to complete.
+[2022.12.03-12.15.09:374][ 55]LogFileHelpers: Loading map 'Minimal_Default' took 0.153
+[2022.12.03-12.15.17:627][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.12.03-12.15.17:628][244]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2022.12.03-12.15.17:629][244]Cmd: MAP LOAD FILE="E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2022.12.03-12.15.17:629][244]LightingResults: New page: Lighting Build
+[2022.12.03-12.15.17:629][244]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2022.12.03-12.15.17:656][244]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-12.15.17:656][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.15.17:656][244]MapCheck: New page: Map Check
+[2022.12.03-12.15.17:656][244]LightingResults: New page: Lighting Build
+[2022.12.03-12.15.17:661][244]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.03-12.15.17:663][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.12.03-12.15.17:675][244]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2022.12.03-12.15.17:675][244]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-12.15.17:675][244]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.12.03-12.15.17:736][244]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.03-12.15.17:745][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.12.03-12.15.17:752][244]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.03-12.15.17:752][244]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
+[2022.12.03-12.15.17:752][244]LogFileHelpers: Loading map 'Minimal_Default' took 0.123
+[2022.12.03-12.15.21:029][572]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2022.12.03-12.15.21:030][572]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-12.15.22:315][572]LogSlate: Took 0.003869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.12.03-12.15.42:002][ 54]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-12.15.42:002][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.15.50:023][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.12.03-12.15.50:064][971]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-12.15.50:064][971]Cmd: MAP LOAD FILE="E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2022.12.03-12.15.50:064][971]LightingResults: New page: Lighting Build
+[2022.12.03-12.15.50:064][971]LoadErrors: New page: Loading map: GameLevel.umap
+[2022.12.03-12.15.50:066][971]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-12.15.50:066][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.15.50:066][971]MapCheck: New page: Map Check
+[2022.12.03-12.15.50:066][971]LightingResults: New page: Lighting Build
+[2022.12.03-12.15.50:085][971]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.03-12.15.50:087][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.12.03-12.15.50:089][971]LogWorld: UWorld::CleanupWorld for GameLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-12.15.50:089][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.15.50:108][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.12.03-12.15.50:125][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.12.03-12.15.50:131][971]LogAudio: Display: Audio Device (ID: 1) registered with world 'GameLevel'.
+[2022.12.03-12.15.50:131][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-12.15.50:132][971]LogAIModule: Creating AISystem for world GameLevel
+[2022.12.03-12.15.50:161][971]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.03-12.15.50:183][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.12.03-12.15.50:191][971]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.03-12.15.50:191][971]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.072ms to complete.
+[2022.12.03-12.15.50:191][971]LogFileHelpers: Loading map 'GameLevel' took 0.127
+[2022.12.03-12.15.54:124][406]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Game/Levels/GameLevel.GameLevel:PersistentLevel.GameLevel
+[2022.12.03-12.15.54:124][406]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-12.16.01:387][187]LogEditorTransaction: Undo Paste clipboard contents
+[2022.12.03-12.16.02:770][292]LogEditorTransaction: Undo Paste clipboard contents
+[2022.12.03-12.16.14:366][588]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-12.16.14:451][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.12.03-12.16.14:465][588]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-12.16.14:465][588]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevelD5CD413D49117821D795F08E24E20A42.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-12.16.14:473][588]LogFileHelpers: Saving map 'GameLevel' took 0.049
+[2022.12.03-12.16.14:478][588]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 1.03 sec)
+[2022.12.03-12.16.14:484][588]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-12.16.14:484][588]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-12.52.18:098][ 94]BlueprintLog: New page: Compile GameLevel
+[2022.12.03-12.52.18:132][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.12.03-12.52.19:528][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.12.03-12.52.25:323][922]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.03-12.52.25:327][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-12.52.25:327][922]PIE: New page: PIE session: GameLevel (Dec 3, 2022, 4:52:25 PM)
+[2022.12.03-12.52.25:363][922]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_GameLevel
+[2022.12.03-12.52.25:368][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005232s)
+[2022.12.03-12.52.25:368][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/GameLevel.GameLevel to /Game/Game/Levels/UEDPIE_0_GameLevel.GameLevel (0.005263s)
+[2022.12.03-12.52.25:368][922]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-12.52.25:369][922]LogAIModule: Creating AISystem for world GameLevel
+[2022.12.03-12.52.25:369][922]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2022.12.03-12.52.25:392][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.12.03-12.52.25:393][922]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.12.03-12.52.25:393][922]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.03-12.52.25:393][922]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.03-12.52.25:393][922]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.03-12.52.25:393][922]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.03-12.52.25:393][922]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.03-12.52.25:393][922]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.03-12.52.25:393][922]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.03-12.52.25:393][922]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.03-12.52.25:393][922]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.03-12.52.25:393][922]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.03-12.52.25:393][922]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.03-12.52.25:395][922]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.03-12.52.25:411][922]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.12.03-12.52.25:411][922]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.03-12.52.25:411][922]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.03-12.52.25:411][922]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.03-12.52.25:412][922]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.12.03-12.52.25:412][922]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.12.03-12.52.25:413][922]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.12.03-12.52.25:413][922]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.12.03-12.52.25:413][922]LogInit: FAudioDevice initialized.
+[2022.12.03-12.52.25:413][922]LogAudio: Display: Audio Device (ID: 3) registered with world 'GameLevel'.
+[2022.12.03-12.52.25:416][922]LogLoad: Game class is 'GameModeBase'
+[2022.12.03-12.52.25:417][922]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2022.12.03-14.52.25
+[2022.12.03-12.52.25:417][922]LogWorld: Bringing up level for play took: 0.000816
+[2022.12.03-12.52.25:418][922]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2022.12.03-12.52.25:419][922]PIE: Server logged in
+[2022.12.03-12.52.25:420][922]PIE: Play in editor total start time 0.093 seconds.
+[2022.12.03-12.53.20:334][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-12.53.20:334][490]LogWorld: BeginTearingDown for /Game/Game/Levels/UEDPIE_0_GameLevel
+[2022.12.03-12.53.20:334][490]LogWorld: UWorld::CleanupWorld for GameLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-12.53.20:334][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.53.20:336][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.03-12.53.20:341][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-12.53.20:363][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-12.53.20:363][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.12.03-12.53.20:365][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.12.03-12.53.20:372][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.12.03-12.53.20:396][491]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: ================================================
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Total job queries 273, among them cache hits 73 (26.74%)
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Tracking 200 distinct input hashes that result in 131 distinct outputs (65.50%)
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: RAM used: 1.51 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.09%
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Shaders Compiled: 6
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100.00%)
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.11 s
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Job execution time: average 1.06 s, max 1.16 s
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Job life time (pending + execution): average 1.14 s, max 1.18
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.18 s
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Average processing rate: 5.10 jobs/sec
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Total thread time: 3.18 s
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Total thread preprocess time: 0.22 s
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Percentage time preprocessing: 6.86%
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Effective parallelization: 2.71 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    6 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 100.00% of total time (compiled    6 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2022.12.03-12.54.12:643][278]LogShaderCompilers: Display: ================================================
+[2022.12.03-12.54.43:901][649]Cmd: TRANSACTION UNDO
+[2022.12.03-12.54.43:901][649]LogEditorTransaction: Undo Create Actors
+[2022.12.03-12.54.43:913][649]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Game/Levels/GameLevel.GameLevel:PersistentLevel.ModelComponent_524' invalid (448 verts, 0 indices).
+[2022.12.03-12.55.38:067][367]Cmd: TRANSACTION UNDO
+[2022.12.03-12.55.38:067][367]LogEditorTransaction: Undo Set Rotation
+[2022.12.03-12.55.49:504][620]Cmd: TRANSACTION UNDO
+[2022.12.03-12.55.49:504][620]LogEditorTransaction: Undo Set Rotation
+[2022.12.03-12.56.14:932][500]Cmd: TRANSACTION UNDO
+[2022.12.03-12.56.14:932][500]LogEditorTransaction: Undo Set Rotation
+[2022.12.03-12.56.15:395][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.12.03-12.56.15:397][505]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Game/Levels/GameLevel' took 0.027
+[2022.12.03-12.56.53:546][308]LogDerivedDataCache: C:/Users/Ahmed/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.072 and deleted 0 files with total size 0 MiB. Scanned 4286 files in 4253 folders with total size 189 MiB.
+[2022.12.03-12.56.56:336][632]Cmd: TRANSACTION UNDO
+[2022.12.03-12.56.56:336][632]LogEditorTransaction: Undo Rotate Elements
+[2022.12.03-12.56.56:636][638]Cmd: TRANSACTION UNDO
+[2022.12.03-12.56.56:636][638]LogEditorTransaction: Undo Set Rotation
+[2022.12.03-12.56.56:962][652]Cmd: TRANSACTION UNDO
+[2022.12.03-12.56.56:962][652]LogEditorTransaction: Undo Set Rotation
+[2022.12.03-12.56.57:382][700]Cmd: TRANSACTION UNDO
+[2022.12.03-12.56.57:382][700]LogEditorTransaction: Undo Set Rotation
+[2022.12.03-12.56.57:806][747]Cmd: TRANSACTION UNDO
+[2022.12.03-12.56.57:806][747]LogEditorTransaction: Undo Set Rotation
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: ================================================
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Total job queries 331, among them cache hits 99 (29.91%)
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Tracking 229 distinct input hashes that result in 150 distinct outputs (65.50%)
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: RAM used: 1.70 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.10%
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Shaders Compiled: 13
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Jobs assigned 16, completed 13 (81.25%)
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Average time worker was idle: 2257.14 s
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Job execution time: average 0.89 s, max 1.16 s
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Job life time (pending + execution): average 0.94 s, max 1.18
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.71 s
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Average processing rate: 4.80 jobs/sec
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Total thread time: 6.77 s
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Total thread preprocess time: 0.43 s
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Percentage time preprocessing: 6.29%
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Effective parallelization: 2.50 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.65 sec, max 0.65 sec, min 0.64 sec)
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.59 sec, max 0.60 sec, min 0.59 sec)
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    6 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2022.12.03-12.58.18:473][ 21]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2022.12.03-12.58.18:474][ 21]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2022.12.03-12.58.18:474][ 21]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.12.03-12.58.18:474][ 21]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 47.06% of total time (compiled    6 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2022.12.03-12.58.18:474][ 21]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.08% of total time (compiled    2 times, average 0.65 sec, max 0.65 sec, min 0.64 sec)
+[2022.12.03-12.58.18:474][ 21]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.58% of total time (compiled    2 times, average 0.59 sec, max 0.60 sec, min 0.59 sec)
+[2022.12.03-12.58.18:474][ 21]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.47% of total time (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2022.12.03-12.58.18:474][ 21]LogShaderCompilers: Display:                                                  FHitProxyPS - 4.82% of total time (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2022.12.03-12.58.18:474][ 21]LogShaderCompilers: Display: ================================================
+[2022.12.03-12.59.03:354][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-12.59.03:412][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.12.03-12.59.03:427][ 13]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-12.59.03:427][ 13]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevel568F0F3540F07DC7CFA94AB9F953E6A6.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-12.59.03:435][ 13]LogFileHelpers: Saving map 'GameLevel' took 0.050
+[2022.12.03-12.59.03:440][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 1.12 sec)
+[2022.12.03-12.59.03:446][ 13]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-12.59.03:446][ 13]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-12.59.41:070][937]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2022.12.03-12.59.41:070][937]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2022.12.03-13.01.16:191][954]Cmd: DUPLICATE
+[2022.12.03-13.01.16:191][954]Cmd: ACTOR DUPLICATE
+[2022.12.03-13.01.37:400][423]Cmd: DUPLICATE
+[2022.12.03-13.01.37:400][423]Cmd: ACTOR DUPLICATE
+[2022.12.03-13.01.52:856][190]Cmd: DUPLICATE
+[2022.12.03-13.01.52:857][190]Cmd: ACTOR DUPLICATE
+[2022.12.03-13.02.06:108][619]Cmd: TRANSACTION UNDO
+[2022.12.03-13.02.06:108][619]LogEditorTransaction: Undo Move Elements
+[2022.12.03-13.02.06:279][622]Cmd: TRANSACTION UNDO
+[2022.12.03-13.02.06:279][622]LogEditorTransaction: Undo Set Location
+[2022.12.03-13.02.07:487][714]Cmd: TRANSACTION REDO
+[2022.12.03-13.02.07:487][714]LogEditorTransaction: Redo Set Location
+[2022.12.03-13.02.41:277][370]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.02.41:360][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.12.03-13.02.41:375][370]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.02.41:376][370]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevel1F8867A24EB9D0466397BF8CEF082DAE.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.02.41:384][370]LogFileHelpers: Saving map 'GameLevel' took 0.050
+[2022.12.03-13.02.41:388][370]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 1.23 sec)
+[2022.12.03-13.02.41:394][370]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.02.41:394][370]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.03.07:325][136]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.03.07:409][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.12.03-13.03.07:425][136]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.03.07:425][136]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevel9A7AC4984A9D4F564BA73791AA792F41.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.03.07:433][136]LogFileHelpers: Saving map 'GameLevel' took 0.050
+[2022.12.03-13.03.07:438][136]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 1.34 sec)
+[2022.12.03-13.03.07:443][136]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.03.07:443][136]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.03.50:416][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.03.50:473][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.12.03-13.03.50:489][977]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.03.50:489][977]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevel15D514514A3B2B1FF472969FF3597EC8.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.03.50:497][977]LogFileHelpers: Saving map 'GameLevel' took 0.048
+[2022.12.03-13.03.50:501][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 1.43 sec)
+[2022.12.03-13.03.50:507][977]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.03.50:507][977]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.03.56:781][700]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.03.56:857][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.12.03-13.03.56:872][700]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.03.56:872][700]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevel763A623740B245CE6F0292AE595C04AC.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.03.56:881][700]LogFileHelpers: Saving map 'GameLevel' took 0.050
+[2022.12.03-13.03.56:885][700]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 1.53 sec)
+[2022.12.03-13.03.56:891][700]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.03.56:891][700]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.03.59:937][ 57]Cmd: SELECT NONE
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: ================================================
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Total job queries 339, among them cache hits 99 (29.20%)
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Tracking 237 distinct input hashes that result in 154 distinct outputs (64.98%)
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: RAM used: 1.75 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.11%
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Shaders Compiled: 21
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Jobs assigned 24, completed 21 (87.50%)
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Average time worker was idle: 1350.26 s
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.11 s
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Job execution time: average 0.79 s, max 1.16 s
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Job life time (pending + execution): average 0.84 s, max 1.18
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.23 s
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Jobs were issued in 24 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Average processing rate: 4.97 jobs/sec
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Total thread time: 10.16 s
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Total thread preprocess time: 0.62 s
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Percentage time preprocessing: 6.13%
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Effective parallelization: 2.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.56 sec, max 0.65 sec, min 0.47 sec)
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.56 sec, max 0.60 sec, min 0.51 sec)
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    6 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.43 sec, max 0.44 sec, min 0.43 sec)
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.12.03-13.05.33:055][ 26]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 31.35% of total time (compiled    6 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2022.12.03-13.05.33:056][ 26]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.04% of total time (compiled    4 times, average 0.56 sec, max 0.65 sec, min 0.47 sec)
+[2022.12.03-13.05.33:056][ 26]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.90% of total time (compiled    4 times, average 0.56 sec, max 0.60 sec, min 0.51 sec)
+[2022.12.03-13.05.33:056][ 26]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.48% of total time (compiled    2 times, average 0.43 sec, max 0.44 sec, min 0.43 sec)
+[2022.12.03-13.05.33:056][ 26]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.05% of total time (compiled    3 times, average 0.27 sec, max 0.28 sec, min 0.27 sec)
+[2022.12.03-13.05.33:056][ 26]LogShaderCompilers: Display: ================================================
+[2022.12.03-13.05.35:966][348]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.05.36:040][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.12.03-13.05.36:056][348]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.05.36:056][348]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevelBACA4EF94612C551D32378B0A608134E.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.05.36:065][348]LogFileHelpers: Saving map 'GameLevel' took 0.051
+[2022.12.03-13.05.36:069][348]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 1.64 sec)
+[2022.12.03-13.05.36:076][348]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.05.36:076][348]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.06.39:527][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.06.39:587][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.12.03-13.06.39:602][435]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.06.39:602][435]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevelF04EDE4548F70F6AA62A75912EFA0797.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.06.39:610][435]LogFileHelpers: Saving map 'GameLevel' took 0.048
+[2022.12.03-13.06.39:614][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 1.72 sec)
+[2022.12.03-13.06.39:620][435]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.06.39:620][435]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.07.00:960][826]Cmd: TRANSACTION UNDO
+[2022.12.03-13.07.00:960][826]LogEditorTransaction: Undo Create Actors
+[2022.12.03-13.07.13:202][112]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.07.13:269][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.12.03-13.07.13:284][112]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.07.13:285][112]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevelA7A7AE3A4768758A05D27B86B1C847A4.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.07.13:298][112]LogFileHelpers: Saving map 'GameLevel' took 0.053
+[2022.12.03-13.07.13:303][112]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 1.83 sec)
+[2022.12.03-13.07.13:309][112]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.07.13:309][112]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.07.44:344][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.07.44:418][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.12.03-13.07.44:433][584]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.07.44:434][584]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevel4320A3D24CD5FF410E2797A47031F35A.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.07.44:447][584]LogFileHelpers: Saving map 'GameLevel' took 0.054
+[2022.12.03-13.07.44:452][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 1.93 sec)
+[2022.12.03-13.07.44:458][584]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.07.44:458][584]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.08.26:926][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.08.27:001][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.12.03-13.08.27:016][279]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.08.27:017][279]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevel3E3C2FC34017DED2051888AA0F153215.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.08.27:024][279]LogFileHelpers: Saving map 'GameLevel' took 0.048
+[2022.12.03-13.08.27:038][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 2.05 sec)
+[2022.12.03-13.08.27:043][279]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.08.27:043][279]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.08.42:855][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.08.42:934][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.12.03-13.08.42:949][ 33]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.08.42:950][ 33]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevel779AE3A84FF3907238F89AAE3DBB20DA.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.08.42:957][ 33]LogFileHelpers: Saving map 'GameLevel' took 0.047
+[2022.12.03-13.08.42:961][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 2.15 sec)
+[2022.12.03-13.08.42:966][ 33]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.08.42:966][ 33]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
+[2022.12.03-13.08.45:987][357]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.03-13.08.45:991][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-13.08.45:991][357]PIE: New page: PIE session: GameLevel (Dec 3, 2022, 5:08:45 PM)
+[2022.12.03-13.08.46:023][357]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_GameLevel
+[2022.12.03-13.08.46:028][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005460s)
+[2022.12.03-13.08.46:028][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/GameLevel.GameLevel to /Game/Game/Levels/UEDPIE_0_GameLevel.GameLevel (0.005489s)
+[2022.12.03-13.08.46:028][357]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-13.08.46:029][357]LogAIModule: Creating AISystem for world GameLevel
+[2022.12.03-13.08.46:029][357]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2022.12.03-13.08.46:053][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.12.03-13.08.46:053][357]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.12.03-13.08.46:053][357]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.03-13.08.46:053][357]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.03-13.08.46:053][357]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.03-13.08.46:054][357]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.03-13.08.46:054][357]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.03-13.08.46:054][357]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.03-13.08.46:054][357]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.03-13.08.46:054][357]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.03-13.08.46:054][357]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.03-13.08.46:054][357]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.03-13.08.46:054][357]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.03-13.08.46:056][357]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.03-13.08.46:070][357]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.12.03-13.08.46:071][357]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.03-13.08.46:071][357]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.03-13.08.46:071][357]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.03-13.08.46:072][357]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.12.03-13.08.46:072][357]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.12.03-13.08.46:073][357]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.12.03-13.08.46:073][357]LogInit: FAudioDevice initialized.
+[2022.12.03-13.08.46:073][357]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.12.03-13.08.46:073][357]LogAudio: Display: Audio Device (ID: 4) registered with world 'GameLevel'.
+[2022.12.03-13.08.46:076][357]LogLoad: Game class is 'GameModeBase'
+[2022.12.03-13.08.46:077][357]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2022.12.03-15.08.46
+[2022.12.03-13.08.46:077][357]LogWorld: Bringing up level for play took: 0.000985
+[2022.12.03-13.08.46:078][357]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2022.12.03-13.08.46:079][357]PIE: Server logged in
+[2022.12.03-13.08.46:080][357]PIE: Play in editor total start time 0.088 seconds.
+[2022.12.03-13.09.16:133][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-13.09.16:133][944]LogWorld: BeginTearingDown for /Game/Game/Levels/UEDPIE_0_GameLevel
+[2022.12.03-13.09.16:133][944]LogWorld: UWorld::CleanupWorld for GameLevel, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-13.09.16:133][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-13.09.16:136][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.03-13.09.16:140][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-13.09.16:163][944]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.03-13.09.16:163][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.12.03-13.09.16:165][944]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.12.03-13.09.16:169][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-13.09.16:171][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.12.03-13.09.16:210][945]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.12.03-13.09.17:126][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.09.17:200][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.12.03-13.09.17:216][ 49]LogSavePackage: Moving output files for package: /Game/Game/Levels/GameLevel
+[2022.12.03-13.09.17:216][ 49]LogSavePackage: Moving 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Saved/GameLevel812F86AD49457914B4BB7FB290205207.tmp' to 'E:/Game dev projects/Unreal projects/Warehouse_Wreckage/WarehouseWreckage/Content/Game/Levels/GameLevel.umap'
+[2022.12.03-13.09.17:224][ 49]LogFileHelpers: Saving map 'GameLevel' took 0.048
+[2022.12.03-13.09.17:237][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 2.26 sec)
+[2022.12.03-13.09.17:243][ 49]AssetCheck: New page: Asset Save: GameLevel
+[2022.12.03-13.09.17:243][ 49]LogContentValidation: Display: Validating /Script/Engine.World /Game/Game/Levels/GameLevel.GameLevel
